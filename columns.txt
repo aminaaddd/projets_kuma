@@ -1,0 +1,32 @@
+['Date', 'Opponent', 'Score', 'InStat Index', 'Goals', 'Chances', 'Chances successful', 'Chances, % of conversion', 'Fouls', 
+'Yellow cards', 'Red cards', 'Tactics', 'Offsides', 'Corners', 'Total actions', 'Successful actions', 'Successful actions, %',
+ 'Shots', 'Shots on target', 'Shots on target, %', 'Shots wide', 'Blocked shots', 'Shots on post / bar', 'xG (Expected goals)', 
+ "Opponent's xG", "Net xG (xG - Opponent's xG)", 'Expected points', 'xG conversion', 'xG per shot', "Opponent's xG per shot",
+  'xG per goal', "Opponent's xG per goal", 'Passes', 'Accurate passes', 'Accurate passes, %', 'Key passes', 'Key passes accurate', 
+  'Crosses', 'Crosses accurate', 'Accurate crosses, %', 'Challenges', 'Challenges won', 'Challenges won, %', 'Defensive challenges', 
+  'Defensive challenges won', 'Challenges in defence won, %', 'Attacking challenges', 'Attacking challenges won', 'Challenges in attack won, %', 
+  'Air challenges', 'Air challenges won', 'Air challenges won, %', 'Dribbles', 'Dribbles successful', 'Successful dribbles, %', 'Tackles',
+   'Tackles successful', 'Tackles won, %', 'Ball interceptions', 'Free ball pick ups', 'Lost balls', 'Lost balls in own half', 'Ball recoveries', 
+   "Ball recoveries in opponent's half", 'Team pressing', 'Team pressing successful', 'Pressing efficiency, %', "Opponent's passes per defensive action", 
+   'Building-ups', 'Building-ups without pressing', 'High pressing', 'High pressing successful', 'High pressing, %', 'Low pressing', 'Low pressing successful', 
+   'Low pressing, %', 'Ball possession, min', 'Ball possession, %', 'Ball possessions, quantity', 'Average duration of ball possession, min',
+    "Entrances on opponent's half", "Entrances on final third of opponent's half", "Entrances to the opponent's box", 'Attacks - left flank',
+     'Attacks with shots - left flank', 'Efficiency for attacks through the left flank, %', 'Attacks - center', 'Attacks with shots - center', 
+     'Efficiency for attacks through the central zone, %', 'Attacks - right flank', 'Attacks with shots - right flank', 'Efficiency for attacks through the right flank, %',
+      'Positional attacks', 'Positional attacks with shots', '% of efficiency for positional attacks', 'Counter-attacks', 'Counter-attacks with a shot', 
+      '% of efficiency for counterattacks', 'Set pieces attacks', 'Attacks with shots - Set pieces attacks', '% of efficiency for set-piece attacks', 'Free-kick attacks', 
+      'Free-kick attacks with shots', '% of efficiency for free-kick attacks', 'Corner attacks', 'Corner attacks with shots', '% of efficiency for corner attacks', 
+      'Throw-in attacks', 'Throw-in attacks with shots', '% of efficiency for throw-in attacks', 'Free-kick shots', 'Goals - Free-kick attack', '% scored free kick shots', 
+      'Penalties', 'Penalties\n scored', 'Penalties scored, %']
+
+      'Average duration of ball possession, min',
+
+      Corners
+
+      Offsides
+
+      Penalties
+      Penalties\n scored
+
+      Free-kick shots
+      % scored free kick shots
