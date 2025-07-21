@@ -128,16 +128,13 @@ if not selected_rows.empty:
     categories = {
         "Shots": "#27ae60",       
         "Passes": "#2980b9",      
-        "Challenges": "#c0392b",       
+        "Duels": "#c0392b",       
         "Pressing": "#16a085",    
         "Possession": "#8e44ad",  
         "Fouls": "#d35400"        
     }
 
     st.markdown("### Select a category")
-
-    if "selected_category" not in st.session_state:
-        st.session_state.selected_category = "Shots"
 
     cols = st.columns(len(categories))
 
@@ -276,9 +273,9 @@ if not selected_rows.empty:
         st.plotly_chart(fig, use_container_width=True)
     
     
-    if selected == "Challenges":
+    if selected == "Duels":
 
-        st.markdown("### Duels Won by Type")
+        st.markdown("### Duels won")
 
         challenge_cols = [
             'Challenges in defence won, %',
@@ -326,7 +323,7 @@ if not selected_rows.empty:
                         radialaxis=dict(visible=True, range=[0, 100])
                     ),
                     showlegend=True,
-                    title="Comparison of Duels Won (%)",
+                    title="Duels Won (%)",
                     height=600,
                     template="plotly_white"
                 )
