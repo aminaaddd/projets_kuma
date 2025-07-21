@@ -136,6 +136,9 @@ if not selected_rows.empty:
 
     st.markdown("### Select a category")
 
+    if "selected_category" not in st.session_state:
+        st.session_state.selected_category = "Shots"
+
     cols = st.columns(len(categories))
 
     for i, (cat, color) in enumerate(categories.items()):
